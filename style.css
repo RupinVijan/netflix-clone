@@ -1,0 +1,222 @@
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row11{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1{
+    background-image: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    width: 100%;
+    margin: -5px;
+    margin-bottom: 0px;
+
+}
+#logo img{
+    height: 60px;
+    width: 140px;
+}
+
+#sec1 nav{
+    justify-content: space-between;
+    margin:30px;
+}
+.btn{
+    background-color: rgba(255, 0, 0, 0.87);
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+#about{
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+
+}
+#writeup h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#writeup h3{
+    font-size: 2rem;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#writeup h4{
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+#about input{
+    font-size: 2rem;
+    max-width: 70%;
+    height: 50px;
+}
+#about button{
+    border: none;
+    padding:8px;
+    height: 55px;
+}
+.sec2{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.secw{
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.secw h2{
+    font-size: 2rem;
+}
+.secw h3{
+    font-size: 1.7rem;
+}
+#mostasked{
+    text-align: center;
+    /* width: 65%; */
+    margin: auto;
+}
+#mostasked h1{
+    font-size: 3rem;
+}
+.ques{
+    text-align: left;
+    padding:0px 20px;
+    padding-top: 5px;
+    width:50%;
+    background-color: grey;
+    color: black;
+    margin: auto;
+    margin-top: 20px  ;
+}
+.ques h3{
+    font-size: 1.4rem;
+}
+.hide{
+    display: none;
+}
+.btnadd{
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+.questop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ans{
+    padding:30px ;
+}
+class2 {
+    height: 618px;
+    background-color: black;
+
+  
+
+
+}
+
+#heading h3 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.411);
+  
+}
+#border{
+    height: 10px;
+    background-color: gray;
+   
+}
+
+
+.class2 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.class2 ul li a {
+    width: 100px;
+    display: flex;
+   
+    font-size: 13px;
+    margin: 15px 40px;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.411);
+}
+
+#netflix-footer {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+
+
+}
+
+#headinggg {
+    max-width: 650px;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 660px) {
+    #jumbotron img{
+        height: 150px;
+        width: 320px;
+        object-fit: contain;
+    }
+    #writeup h1,#mostasked h1,h1{
+        font-size: 1.2rem;
+    }
+    .secw h2,h2{
+        font-size: 1.1rem;
+    }
+    #writeup h3,.secw h3,.ques h3,#heading h3,h3{
+        font-size: 1rem;
+    }
+    #writeup h4,h4{
+        font-size: 0.9rem;
+    }
+    #about input{
+        font-size: 1rem;
+        max-width: 70%;
+    }
+    #about{
+        width: 80%;
+    }
+
+
+}
+
