@@ -191,6 +191,45 @@ class2 {
     padding-top: 80px;
     text-align: center;
 }
+#signin-form{
+    height: 450px;
+    min-width: 300px;
+    max-width: 450px;
+    /* text-align: center; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgba(20, 20, 20, 0.89);
+    padding:20px 0px;
+    /* margin-bottom: 20px; */
+    
+}
+
+#signin-form h1,h3,h4{
+    margin-left: 70px;
+
+}
+#signin-form button{
+width: 100px;
+margin:10px auto;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+#signin-form input{
+    background-color: rgba(51, 51, 51, 0.774);
+    padding:10px;
+    font-size: 1.4rem;
+    width: 270px;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+}
 
 @media only screen and (max-width: 660px) {
     #jumbotron img{
