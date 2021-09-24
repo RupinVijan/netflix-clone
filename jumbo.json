@@ -1,6 +1,6 @@
 {
     "ontv":{
-        "img":"tv.png",
+        "img":"tv.jpeg",
         "title":"Enjoy on your TV.",
         "content":"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
     },
@@ -10,7 +10,7 @@
         "content":"Save your favourites easily and always have something to watch."
     },
     "everwhere":{
-        "img":"device-pile-in.png",
+        "img":"device-pile-in.jpeg",
         "title":"Watch everywhere.",
         "content":"Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
     }
